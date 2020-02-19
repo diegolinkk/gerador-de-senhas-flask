@@ -1,11 +1,11 @@
 # gerador-de-senhas-flask
-gerador de senhas simples feito em flask
+## gerador de senhas simples feito em flask
 
 - carrega um formulário (em template)
 - envia informações via POST
 - retorna senhas conforme solicitado no formulário
 
-Para executar esse aplicativo
+## Para executar esse aplicativo
 
 - ```python python -m venv venv ``` (gerar virtual env)
 - ```python pip install -r requirements.txt ``` (instalar pacotes - aqui no caso apenas flask e suas dependências)
