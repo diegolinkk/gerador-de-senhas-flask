@@ -7,7 +7,7 @@
 
 ## Para executar esse aplicativo
 
-- ```python python -m venv venv ``` (gerar virtual env)
+- ` python -m venv venv` (gerar virtual env)
 - ```python pip install -r requirements.txt ``` (instalar pacotes - aqui no caso apenas flask e suas dependências)
 - ```bash env FLASK_APP=app.py  ``` (adiciona aplicativo no ambiente flask)
 - ```bash flask run ``` (executa o aplicativo flask)
