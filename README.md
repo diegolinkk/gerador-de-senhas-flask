@@ -7,9 +7,21 @@
 
 ## Para executar esse aplicativo
 
-- `python -m venv venv` (gerar virtual env)
-- `source venv/bin/activate` (ativando o virtualenv)
-- `python pip install -r requirements.txt` (instalar pacotes - aqui no caso apenas flask e suas dependências)
-- `env FLASK_APP=app.py` (adiciona aplicativo no ambiente flask)
+### 1 - Criando virtual env
+- `python -m venv venv`
+
+### 2 - Ativando o virtual env
+- `source venv/bin/activate` (Linux) ou
+- `venv\Scripts\activate.bat` (Windows)
+
+### 3 - Instalar o Flask
+- `pip install flask`
+
+### 4 - Configurando variável de ambiente
+
+- `env FLASK_APP=app.py` (Linux) ou
+- `$env:FLASK_APP = ".\app.py"` (Windows)
+
+### 5 - Executando a aplicação
 - `flask run` (executa o aplicativo flask)
 - abre navegador em: http://127.0.0.1:5000
